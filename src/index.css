@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.149);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 25px;
+     height: 25px;
+     margin-right: 10px;
+     margin-left: 25px;
+     border-radius: 50%;
+     color: #fff;
+     background-color: blue;
+}
+
+.logo .mar{
+    margin-left: 10px;
+}
+
+.logo h3{
+    margin-left: 20px;
+}
+.sales{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.sales p{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 25px;
+     height: 25px;
+     margin-right: 10px;
+     border-radius: 50%;
+     color: #fff;
+     background-color: blue;
+}
+
+
+.Sidebar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(0, 0, 0, 0.099);
+}
+
+.Sidebar .side-main{
+    width: 256px;
+    height: 100vh;
+}
+
+.sidebarCard{
+    margin: 10px;
+    padding: 20px 15px 20px 15px;
+    color: white;
+    background-color: rgb(60, 60, 241);
+    text-align: center;
+    border-radius: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.099);
+}
+
+.sidebarCard button{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+
+.userDetails{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.099);
+}
+
+.userDetails img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.hero-flex1{
+    display: flex;
+}
+
+.main-hero{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.uploadFile{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span1{
+    color: blue;
+}
+
+.switch {
+    position: relative;
+    height: 1.5rem;
+    width: 3rem;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 9999px;
+    background-color: rgba(100, 116, 139, 0.377);
+    transition: all .3s ease;
+    border: none;
+  }
+  
+  .switch::before {
+    position: absolute;
+    content: "";
+    left: calc(1.5rem - 1.6rem);
+    top: calc(1.5rem - 1.6rem);
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;
+    cursor: pointer;
+    border: 1px solid rgba(100, 116, 139, 0.527);
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);
+    transition: all .3s ease;
+  }
+  
+  .switch:hover::before {
+    box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)
+  }
+  
+  .end-main{
+    display: flex;
+  }
+
+  .end-block{
+    width: 650px;
+    height: auto;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(106, 167, 232, 0.151);
+  }
+
+  .end-block .sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .end-block .dis{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .end-block .tds{
+    margin: 15px;
+  }
+
+.mar-end{
+    margin-left: 1000px;
+    margin-top: 20px;
+}
