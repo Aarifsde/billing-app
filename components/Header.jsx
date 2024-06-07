@@ -21,7 +21,7 @@ const Header = () => {
             </Badge>
         <SettingOutlined style={{margin: 20}}/>
         </Space>
-            <p>S</p>
+            <p style={{color:'black', backgroundColor:"whitesmoke"}}>S</p>
             <h5>Silico design</h5>
             <DownOutlined style={{margin: 15}}/>
       </div>

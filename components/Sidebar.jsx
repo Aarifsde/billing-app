@@ -1,15 +1,17 @@
-import { Menu } from "antd"
+import { BankOutlined, FolderOpenOutlined, FormOutlined, MonitorOutlined, ProductOutlined, ShoppingCartOutlined, UserOutlined, UsergroupAddOutlined } from "@ant-design/icons"
+import { Menu, Space } from "antd"
 
 
 const Sidebar = () => {
   return (
 
     <div className="Sidebar">
-      <div className="side-main">
+      <Space>
       <Menu items={[
           {
             label:"Sales",
             key:'sub1',
+            icon: <ProductOutlined />,
             children:[
               {
                 label:'Product'
@@ -20,32 +22,41 @@ const Sidebar = () => {
             ]
           },
           {
-            label: 'Purchase'
+            label: 'Purchase',
+            icon: <ShoppingCartOutlined />,
           },
           {
-            label: 'Quotations'
+            label: 'Quotations',
+            icon: <FolderOpenOutlined />,
           },
           {
-            label: 'Expenses'
+            label: 'Expenses',
+            icon: <MonitorOutlined />,
           },
           {
-            label: 'Import bank Statement'
+            label: 'Import bank Statement',
+            icon: <BankOutlined />,
           },
           {
-            label: 'Customer'
+            label: 'Customer',
+            icon: <UserOutlined />,
           },
           {
-            label: 'People'
+            label: 'People',
+            icon: <UsergroupAddOutlined />,
           },
           {
-            label: 'Product'
+            label: 'Product',
+            icon: <FormOutlined />,
           }
         ]} mode="inline" 
         defaultOpenKeys={['sub1']}
+        style={{width:256, height:700}}
         ></Menu>
-      </div>
+      </Space>
 
-        <div>
+
+
         <div className="sidebarCard">
             <p>More templates, more Flexibility and premium support!</p>
             <button>Upgrade Now</button>
@@ -56,7 +67,6 @@ const Sidebar = () => {
             <div className="user">
                 <p>aarif.webdev@gmail.com</p>
             </div>
-        </div>
         </div>
     </div>
   )
